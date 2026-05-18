@@ -446,8 +446,7 @@ def health(request):
 
     <script>
       /* ── Change this URL when you deploy to Railway ─────────── */
-      const DJANGO_API = "https://web-production-8fa5c.up.railway.app";
-
+    const DJANGO_API = "https://web-production-8fa5c.up.railway.app/api/contact/";
       function clearErrors() {
         ["name", "email", "message"].forEach(function(f) {
           document.getElementById("err-" + f).textContent = "";
